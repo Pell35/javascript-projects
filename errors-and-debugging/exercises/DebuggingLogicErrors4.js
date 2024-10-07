@@ -26,7 +26,7 @@ if (crewStatus && computerStatus === 'green'){
    console.log('WARNING: Crew or computer not ready!');
    launchReady = false;
 }
-
+//No matter  what the fuel was doing it would set launch ready if the crew and computer were correct
 console.log("launchReady = ", launchReady);
 
 // if (launchReady) {

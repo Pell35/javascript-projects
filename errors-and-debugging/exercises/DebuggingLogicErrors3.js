@@ -1,4 +1,4 @@
-// Let’s break the code down into smaller chunks.
+``// Let’s break the code down into smaller chunks.
 // Now consider the second if/else block. 
 // Add another console.log(launchReady) after this block and run the program.
 
@@ -25,7 +25,7 @@ if (crewStatus && computerStatus === 'green'){
    console.log('WARNING: Crew or computer not ready!');
    launchReady = false;
 }
-
+//It should be true
 // if (launchReady) {
 //    console.log('10, 9, 8, 7, 6, 5, 4, 3, 2, 1...');
 //    console.log('Liftoff!');
